@@ -1,9 +1,9 @@
-# Cats Slider
-This is an example of a simple [Slider](https://dimatarhan.github.io/slider/).
+#Dashboard layout
+This is an example of a simple [Dashboard layout](https://dimatarhan.github.io/dashboard_layout/).
 ## Technologies
-+ HTML
-+ CSS
-+ JavaScript
++ pug > HTML
++ scss > CSS
++ Gulp
 ## Result:
 Click on image to open the page!
 
