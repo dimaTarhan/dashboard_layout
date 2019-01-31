@@ -1,0 +1,87 @@
+.head{
+  width: 100%;
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: $main-font;
+  font-weight: bold;
+}
+
+.head__refresh{
+  margin-left: 5%;
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  background-color: $active-color;
+  border-radius: 50%;
+
+    .material-icons{
+      color: white;
+    }
+
+  &:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.head__dashboard{
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 2px solid #4d5052;
+  color: #4d5052;
+  border-radius: 20px;
+
+  &:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.8;
+  }
+}
+
+.head__filter-status{
+  margin-left: auto;
+  padding: 8px 8px;
+  display: flex;
+  align-items: center;
+  background-color: #aacc4e;
+  border-radius: 50%;
+
+  .material-icons{
+    color: white;
+  }
+
+  &:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.head__filter{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 2px solid #4d5052;
+  border-radius: 25px;
+  color: #4d5052;
+  margin-right: 5%;
+
+  &:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+  span{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .material-icons{
+    color: $navigation-bg-color;
+  }
+}

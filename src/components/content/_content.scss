@@ -1,0 +1,21 @@
+@import "head/head";
+@import "search/search";
+@import "projects/projects";
+@import "activity/activity";
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: $content-bg-color;
+}
+
+.projects-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: white;
+  box-sizing: border-box;
+}

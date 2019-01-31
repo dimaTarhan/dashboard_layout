@@ -1,0 +1,75 @@
+mixin project(percent, title, type, icon)
+    .project-descr
+        .project-descr__percent= percent
+        .project-descr__title= title
+        .project-descr__type-button= type
+        .project-descr__button
+            .material-icons search
+        .project-descr__button
+            .material-icons= icon
+.projects
+    .projects__head
+        span.projects__search-text Search a Project with Name, Task, User...
+        .new-project_button
+            span New Projects
+            span (descending)
+            .material-icons expand_more
+        .projects_add-button
+            .material-icons add
+    .projects-container
+        +project('23%', 'Create Contact Formular', 'Worlda', 'expand_more')
+        +project('87%', 'Create Subpage PSD', 'Panorama', 'expand_more')
+        +project('83%', 'Layout & implementation in HTML & CSS', 'Ebay Relaunch', 'expand_less')
+
+        .project-descr.opened
+            .project-descr__percent 66%
+            .project-descr__title Creating the Context
+            .project-descr__users
+                .user-avatar
+                    img(src="images/users/mark.png")
+                    .user-avatar__active-status
+                .user-avatar
+                    img(src="images/users/sebastian.png")
+                    .user-avatar__active-status
+                .user-avatar
+                    img(src="images/users/benni.png")
+                    .user-avatar__passive-status
+                .user-more
+                    span +3
+            .project-descr__date-button
+                .material-icons refresh
+                span today, 13:40 PM
+            .project-descr__button
+                .material-icons search
+
+        .project-descr.opened
+            .project-descr__percent
+                span ready
+            .project-descr__title.project-descr__title-ready!= 'Implementation in the Layout &#10004;'
+            .project-descr__users
+                .user-avatar
+                    img(src="images/users/sebastian.png")
+                    .user-avatar__active-status
+                .user-avatar
+                    img(src="images/users/benni.png")
+                    .user-avatar__passive-status
+            .project-descr__date-button
+                .material-icons refresh
+                span Yestarday, 12:40 PM
+            .project-descr__button
+                .material-icons search
+
+        +project('23%', 'Lorem ipsum dolor sit amet, elitr, sed diam  nonumy eirmod temp', 'Panorama', 'expand_more')
+        +project('98%', 'Create Contact Formular', 'Worlda', 'expand_more')
+        +project('98%', 'Create Contact Formular', 'Worlda', 'expand_more')
+        +project('98%', 'Create Contact Formular', 'Worlda', 'expand_more')
+        +project('98%', 'Create Contact Formular', 'Worlda', 'expand_more')
+        +project('98%', 'Create Contact Formular', 'Worlda', 'expand_more')
+
+
+
+
+    .projects__archiv
+        span Project Archiv
+        .material-icons chevron_right
+

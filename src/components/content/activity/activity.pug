@@ -1,0 +1,36 @@
+mixin user(img, name, date, status)
+    .user-descr
+        .user-avatar
+            img(src= img alt="")
+            div(class= status)
+        .user-descr__info
+            .user-descr__info-name
+                span= name
+                span add an Image into Worlda
+            span= date
+
+
+.activity
+    .activity-container
+        +user('images/users/sebastian.png', 'Sebastian K.', 'Today, 10:30 PM', 'user-avatar__passive-status')
+        +user('images/users/mark.png', 'Mark P.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/benni.png', 'Benni I.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/philip.png', 'Philip O.', 'Today, 10:30 PM', 'user-avatar__passive-status')
+        +user('images/users/mark.png', 'Mark P.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/marvin.png', 'Marvin S.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/benni.png', 'Benni I.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/mark.png', 'Mark P.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/marvin.png', 'Marvin S.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/sebastian.png', 'Sebastian K.', 'Today, 10:30 PM', 'user-avatar__passive-status')
+        +user('images/users/benni.png', 'Benni I.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/philip.png', 'Philip O.', 'Today, 10:30 PM', 'user-avatar__passive-status')
+        +user('images/users/mark.png', 'Mark P.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/benni.png', 'Benni I.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/marvin.png', 'Marvin S.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/mark.png', 'Mark P.', 'Today, 10:30 PM', 'user-avatar__active-status')
+        +user('images/users/sebastian.png', 'Sebastian K.', 'Today, 10:30 PM', 'user-avatar__passive-status')
+        +user('images/users/marvin.png', 'Marvin S.', 'Today, 10:30 PM', 'user-avatar__active-status')
+
+    .activity__archiv
+        span Activity Archiv
+        .material-icons chevron_right
