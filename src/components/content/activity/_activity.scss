@@ -1,8 +1,8 @@
 .activity{
-  margin: 20px 20px 20px 0;
+  margin: 1% 1% 1% 0;
   flex-grow: 1;
   box-sizing: border-box;
-  width: 25%;
+  width: 30%;
   border: 1px solid #c9c9c9;
   border-radius: 10px;
 }
@@ -50,20 +50,24 @@
   }
 
   .user-avatar{
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .user-descr__info{
     margin-left: 10px;
     display: flex;
     flex-direction: column;
+    font-size: 14px;
 
     .user-descr__info-name{
       display: flex;
       flex-direction: row;
       align-items: center;
       margin-bottom: 3px;
+      flex-wrap: wrap;
       span:first-child{
+        font-size: 16px;
+        margin-bottom: 3px;
         margin-right: 5px;
         font-weight: bold;
         color: #4d5052;

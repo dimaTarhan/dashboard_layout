@@ -9,7 +9,7 @@
 
     .material-icons{
       color: #4d5052;
-      font-size: 40px;
+      font-size: 30px;
     }
 
     .navigation__upgrade{
@@ -43,8 +43,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 0;
+  padding-bottom: 5%;
   align-items: center;
   border-left: 4px solid $navigation-bg-color;
   cursor: pointer;
@@ -68,7 +68,7 @@
     }
 
   .active-number{
-    top: 0;
+    top: -10px;
     right: 20px;
   }
 
@@ -81,8 +81,8 @@
 .mavigation__selected-element{
   display: flex;
   flex-direction: column;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   align-items: center;
   border-left: 4px solid $active-color;
   cursor: pointer;
