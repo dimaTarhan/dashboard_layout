@@ -682,8 +682,8 @@
 
 .project-descr__users .user-avatar {
   margin-right: 5px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .project-descr__users .user-avatar:hover {
@@ -711,8 +711,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-right: 5px;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   border: 1px solid #c9c9c9;
   color: #c9c9c9;
   border-radius: 50%;
@@ -733,7 +733,7 @@
 }
 
 .opened .project-descr__title {
-  width: 30%;
+  width: 28%;
 }
 
 .opened .project-descr__percent {
