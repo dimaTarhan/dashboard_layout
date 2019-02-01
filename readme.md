@@ -1,5 +1,5 @@
 # Dashboard layout
-This is an example of a simple [Dashboard layout](https://dimatarhan.github.io/dashboard_layout/).
+This is a simple [Dashboard layout](https://dimatarhan.github.io/dashboard_layout/).
 ## Technologies
 + pug > HTML
 + scss > CSS
